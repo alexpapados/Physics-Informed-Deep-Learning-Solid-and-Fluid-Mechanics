@@ -5,7 +5,7 @@
 
 ---------------------------------------------------------------------------------------------------------------------------------
 This repository is dedicated to provide users of interests with the ability to solve forward and inverse hydrodynamic shock-tube problems and plane stress
-linear elasticity boundary value problems using Physics-Informed Deep Learning techniques (W-PINNs-DE and W-PINNs). This repository contains each problem 
+linear elasticity boundary value problems using Physics-Informed Deep Learning techniques (W-PINNs-DE & W-PINNs). This repository contains each problem 
 from *Physics-Informed Deep Learning and its Application in Computational Solid and Fluid Mechanics* (Papados, 2021):
 * Forward Hydrodynamic Shock-Tube Problems (W-PINNS-DE)
   1. Single Contact Discontinuity Problem
