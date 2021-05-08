@@ -1,4 +1,4 @@
-# Solving Hydrodynamic Shock-Tube Problems Using Weighted Physics-Informed Neural Networks with Domain Extension
+# Physics-Informed Deep Learning and its Application in Computational Solid and Fluid Mechanics
 ## Author: Alexandros Papados ##
 ## Paper Link ##
 
