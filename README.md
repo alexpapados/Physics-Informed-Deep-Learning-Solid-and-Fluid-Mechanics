@@ -4,20 +4,20 @@
 
 
 ---------------------------------------------------------------------------------------------------------------------------------
-This repository is dedicated to provide users of interests with the ability to solve forward and inverse hydrodynamic shock-tube problems and plane stress
+This repository is dedicated to provide users of interest with the ability to solve forward and inverse hydrodynamic shock-tube problems and plane stress
 linear elasticity boundary value problems using Physics-Informed Deep Learning (PIDL) techniques (W-PINNs-DE & W-PINNs). This repository contains PINNs code from each problem 
 in *Physics-Informed Deep Learning and its Application in Computational Solid and Fluid Mechanics* (Papados, 2021):
-* Forward Hydrodynamic Shock-Tube Problems (W-PINNS-DE)
+* Forward Hydrodynamic Shock-Tube Problems (W-PINNs-DE)
   1. Single Contact Discontinuity Problem
   2. Sod Shock-Tube Problem  
   3. Reverse Sod Shock-Tube Problem
   4. Double Expansion Fan Problem
   5. High-Speed Flow Problem I
   6. High-Speed Flow Problem II
-* Inverse Hydrodynamic Shock-Tube Problems (W-PINNS)
+* Inverse Hydrodynamic Shock-Tube Problems (W-PINNs)
   1. Single Contact Discontinuity Problem
   2. Sod Shock-Tube Problem 
-* Forward Plane Stress Linear Elasticity Boundary Value Problems (W-PINNS)
+* Forward Plane Stress Linear Elasticity Boundary Value Problems (W-PINNs)
   1. Domain I (Square Domain)
   2. Domain II (L-Shape Domain)  
   3. Domain III (Square Domain with Circle Boundary) 
