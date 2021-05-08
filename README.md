@@ -8,12 +8,12 @@ This repository is dedicated to provide users of interests with the ability to s
 linear elasticity boundary value problems using Physics-Informed Deep Learning Techniques (W-PINNs-DE and W-PINNs). This repository contains each problem 
 from *Physics-Informed Deep Learning and its Application in Computational Solid and Fluid Mechanics* (Papados, 2021):
 * Forward Hydrodynamic Shock-Tube Problems
-** Single Contact Discontinuity Problem
-** Sod Shock-Tube Problem  
-** Reverse Sod Shock-Tube Problem
-** Double Expansion Fan Problem
-** High-Speed Flow Problem I
-** High-Speed Flow Problem II
+  1. Single Contact Discontinuity Problem
+  2. Sod Shock-Tube Problem  
+  3. Reverse Sod Shock-Tube Problem
+  4. Double Expansion Fan Problem
+  5. High-Speed Flow Problem I
+  6. High-Speed Flow Problem II
 
 The folder, Hydrodynamic Shock-Tube Problems, contains the code for each test problem
 
