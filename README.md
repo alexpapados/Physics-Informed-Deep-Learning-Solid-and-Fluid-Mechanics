@@ -28,8 +28,8 @@ The folder, Hydrodynamic Shock-Tube Problems, contains the code for each test pr
 
 <img src=./Figures/Sod-rho-u-p.png width="350" height="350"/><img src=./Figures/L_u_PINNs_2033.png width="400" height="350"/>
                              
-* Left: W-PINNs-DE solutions of (red line) compared to exact solutions (blue line) of the Sod Shock-Tube Problem*
-* Right: W-PINNs solution of deformation in x direction on Domain II*
+*Left: W-PINNs-DE solutions of (red line) compared to exact solutions (blue line) of the Sod Shock-Tube Problem*
+*Right: W-PINNs solution of deformation in x direction on Domain II*
 
 ## Libraries ##
 All W-PINNs-DE code was written using Python. The libraries used are:
