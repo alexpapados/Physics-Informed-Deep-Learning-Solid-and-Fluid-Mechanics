@@ -4,15 +4,16 @@
 
 
 ---------------------------------------------------------------------------------------------------------------------------------
-This repository is dedicated to provide users of interests with the ability to solve hydrodynamic shock-tube problems using 
-Weighted Physics-Informed Neural Networks with Domain Extension (W-PINNs-DE). This repository contains the six test hydrodynamic shock-tube problems 
-from *Solving Hydrodynamic Shock-Tube Problems Using Weighted Physics-Informed Neural Networks with Domain Extension* (Papados, 2021):
-* Single Contact Discontinuity Problem
-* Sod Shock-Tube Problem  
-* Reverse Sod Shock-Tube Problem
-* Double Expansion Fan Problem
-* High-Speed Flow Problem I
-* High-Speed Flow Problem II
+This repository is dedicated to provide users of interests with the ability to solve forward and inverse hydrodynamic shock-tube problems and plane stress
+linear elasticity boundary value problems using Physics-Informed Deep Learning Techniques (W-PINNs-DE and W-PINNs). This repository contains each problem 
+from *Physics-Informed Deep Learning and its Application in Computational Solid and Fluid Mechanics* (Papados, 2021):
+* Forward Hydrodynamic Shock-Tube Problems
+** Single Contact Discontinuity Problem
+** Sod Shock-Tube Problem  
+** Reverse Sod Shock-Tube Problem
+** Double Expansion Fan Problem
+** High-Speed Flow Problem I
+** High-Speed Flow Problem II
 
 The folder, Hydrodynamic Shock-Tube Problems, contains the code for each test problem
 
