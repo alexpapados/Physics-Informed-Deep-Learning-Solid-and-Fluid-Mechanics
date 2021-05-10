@@ -1,6 +1,5 @@
 # Physics-Informed Deep Learning and its Application in Computational Solid and Fluid Mechanics
 ## Author: Alexandros Papados ##
-## AMSC 663/664: Advance Scientific Computing I and II ##
 
 
 ---------------------------------------------------------------------------------------------------------------------------------
