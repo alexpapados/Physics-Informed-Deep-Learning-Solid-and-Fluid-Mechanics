@@ -132,20 +132,20 @@ def LEBVP(interior_points, boundary_points):
     u_b = u_bound_ext[:, :]
 
 
-    ## set data as tensor and send to device
+    ## Define data as PyTorch Tensor and send to device
     xy_f_train = torch.tensor(xy_f, requires_grad=True, dtype=torch.float32).to(device)
     xy_b_train = torch.tensor(xy_b, requires_grad=True, dtype=torch.float32).to(device)
     xy_test = torch.tensor(xy_2d_ext, requires_grad=True, dtype=torch.float32).to(device)
     u_b_train = torch.tensor(u_b, dtype=torch.float32).to(device)
 
 
-    ## instantiate model
+    # Initialize model
     model = Model().to(device)
 
-    # Loss and optimizer
+    # Loss and Optimizer
     optimizer = torch.optim.Adam(model.parameters(), lr=lr)
 
-    # training
+    # Training
     def train(epoch):
         model.train()
 
@@ -167,10 +167,12 @@ def LEBVP(interior_points, boundary_points):
         train(epoch)
     toc = time.time()
     print(f'total training time: {toc - tic}')
+    
     u_preds = model(xy_test)
+    # Compute gradients
     du = gradients(u_preds[:, 0], xy_test)[0]
     dv = gradients(u_preds[:, 1], xy_test)[0]
-    u_x,v_y = du[:,0],dv[:,1]
+    u_x,v_y = du[:,0],dv[:,1]                                         # Strain in x and y direction
     u_pred = to_numpy(model(xy_test))
     scipy.io.savemat('PINNs_Stress.mat', {'x': x, 'y': y,
                                                'u': u_pred[:,0],
@@ -178,6 +180,6 @@ def LEBVP(interior_points, boundary_points):
                                                'e_xx': to_numpy(u_x),
                                                'e_yy': to_numpy(v_y)})
 def main():
-    LEBVP('Domain_I_Interior_Points.mat', 'Domain_I_Shape_Boundary_Points.mat')
+    LEBVP('Domain_I_Interior_Points.mat', 'Domain_I_Boundary_Points.mat')
 if __name__ == '__main__':
     main()
