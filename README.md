@@ -48,4 +48,4 @@ To install each of these package and the versions used in this project, please r
 Each script provides a detailed description of the problem being solved and how to run the program
 
 ## How to Run the Code ##
-Perferably using an IDE such as PyCharm, and once all libraries are downloaded, users may simply run the code and each case as described in individual scripts.
+Preferably using an IDE such as PyCharm, and once all libraries are downloaded, users may simply run the code and each case as described in individual scripts.
