@@ -23,7 +23,7 @@ in *Physics-Informed Deep Learning and its Application in Computational Solid an
   4. Domain IV (Rectangular Domain with Circle Boundary)   
 
 
-<img src=./Figures/Sod-rho-u-p.png width="350" height="350"/><img src=./Figures/L_u_PINNs_2033.png width="400" height="350"/>
+<img src=./Figures/Sod.gif width="350" height="350"/><img src=./Figures/L_u_PINNs_2033.png width="400" height="350"/>
                              
 *Left: W-PINNs-DE solutions of (red line) compared to exact solutions (blue line) of the Sod Shock-Tube Problem*
 
