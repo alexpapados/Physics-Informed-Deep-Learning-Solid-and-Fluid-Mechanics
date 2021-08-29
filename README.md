@@ -26,15 +26,15 @@ in *Physics-Informed Deep Learning and its Application in Computational Solid an
 
 <img src=./Figures/Sod.gif width="350" height="350"/><img src=./Figures/L_u_PINNs_2033.png width="400" height="350"/>
                              
-*Left: W-PINNs-DE solutions of (red line) compared to exact solutions (blue line) of the Sod Shock-Tube Problem*
+*Left: W-PINNs-DE solutions of (red squares) compared to exact solutions (black line) of the Sod Shock-Tube Problem*
 
 *Right: W-PINNs solution of deformation in x direction on Domain II*
 
 <img src=./Figures/BLP.gif width="350" height="350"/><img src=./Figures/Buckley-Leverett-Problem-full.png width="400" height="350"/>
                              
-*Left: W-PINNs-DE solutions of (red line) compared to exact solutions (blue line) of the Sod Shock-Tube Problem*
+*Left: W-PINNs-DE solutions of (red squares) compared to exact solutions (black line) of the Buckley-Leverett Problem*
 
-*Right: W-PINNs solution of deformation in x direction on Domain II*
+*Right: Full W-PINNs-DE solution of Buckley-Leverett Problem*
 
 ## Libraries ##
 All W-PINNs-DE code was written using Python. The libraries used are:
