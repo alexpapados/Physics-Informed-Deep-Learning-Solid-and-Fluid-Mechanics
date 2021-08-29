@@ -13,6 +13,7 @@ in *Physics-Informed Deep Learning and its Application in Computational Solid an
   4. Double Expansion Fan Problem
   5. High-Speed Flow Problem I
   6. High-Speed Flow Problem II
+  7. Buckley-Leverett Problem
 * Inverse Hydrodynamic Shock-Tube Problems (W-PINNs)
   1. Single Contact Discontinuity Problem
   2. Sod Shock-Tube Problem 
@@ -24,6 +25,12 @@ in *Physics-Informed Deep Learning and its Application in Computational Solid an
 
 
 <img src=./Figures/Sod.gif width="350" height="350"/><img src=./Figures/L_u_PINNs_2033.png width="400" height="350"/>
+                             
+*Left: W-PINNs-DE solutions of (red line) compared to exact solutions (blue line) of the Sod Shock-Tube Problem*
+
+*Right: W-PINNs solution of deformation in x direction on Domain II*
+
+<img src=./Figures/BLP.gif width="350" height="350"/><img src=./Figures/Buckley-Leverett-Problem-full.png width="400" height="350"/>
                              
 *Left: W-PINNs-DE solutions of (red line) compared to exact solutions (blue line) of the Sod Shock-Tube Problem*
 
