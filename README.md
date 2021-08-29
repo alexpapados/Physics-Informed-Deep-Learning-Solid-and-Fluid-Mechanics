@@ -26,13 +26,13 @@ in *Physics-Informed Deep Learning and its Application in Computational Solid an
 
 <img src=./Figures/Sod.gif width="350" height="350"/><img src=./Figures/L_u_PINNs_2033.png width="400" height="350"/>
                              
-*Left: W-PINNs-DE solutions of (red squares) compared to exact solutions (black line) of the Sod Shock-Tube Problem*
+*Left: W-PINNs-DE solution(red squares) compared to exact solution (black line) of the Sod Shock-Tube Problem*
 
 *Right: W-PINNs solution of deformation in x direction on Domain II*
 
 <img src=./Figures/BLP.gif width="350" height="350"/><img src=./Figures/Buckley-Leverett-Problem-full.png width="400" height="350"/>
                              
-*Left: W-PINNs-DE solutions of (red squares) compared to exact solutions (black line) of the Buckley-Leverett Problem*
+*Left: W-PINNs-DE solution (red squares) compared to exact solution (black line) of the Buckley-Leverett Problem*
 
 *Right: Full W-PINNs-DE solution of Buckley-Leverett Problem*
 
