@@ -51,8 +51,8 @@ class DNN(nn.Module):
         du_g = gradients(u, x)[0]                                  # Gradient [u_t, u_x]
         u_t, u_x = du_g[:, :1], du_g[:, 1:]                        # Partial derivatives u_t, u_x
         F = (u**2)/(4*(u**2) + (1-u)**2)
-        DF = gradients(F, x)[0]                                    # Gradient [u_t, u_x]
-        F_x = DF[:, 1:]                                            # Partial derivatives u_t, u_x
+        DF = gradients(F, x)[0]                                    # Gradient of flux DF
+        F_x = DF[:, 1:]                                            # Partial derivativEe of flux, F(u)_x
 
         # Loss function for the Euler Equations
         f = ((u_t + F_x)**2).mean()
