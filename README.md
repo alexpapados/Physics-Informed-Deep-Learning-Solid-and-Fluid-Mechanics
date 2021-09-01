@@ -30,7 +30,7 @@ in *Physics-Informed Deep Learning and its Application in Computational Solid an
 
 *Right: W-PINNs solution of deformation in x direction on Domain II*
 
-<img src=./Figures/BLP-of.gif width="350" height="350"/><img src=./Figures/Buckley-Leverett-Problem-full.png width="400" height="350"/>
+<img src=./Figures/BLP-OF.gif width="350" height="350"/><img src=./Figures/Buckley-Leverett-Problem-full.png width="400" height="350"/>
                              
 *Left: W-PINNs-DE solution (red squares) compared to exact solution (black line) of the Buckley-Leverett Problem*
 
